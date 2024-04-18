@@ -3,6 +3,8 @@
 // import 'package:learningdart/interface.dart' as newInterface;
 // import 'package:learningdart/heritage.dart' as heritage;
 // import 'package:learningdart/polymorphism.dart' as polymorphism;
+// import 'package:learningdart/justFuture.dart' as justFuture;
+import 'package:learningdart/futureWithAsyncAndAwait.dart' as future;
 
 // void main(List<String> arguments) {
 //   print('${variables.type(variables.type('number'))}');
@@ -34,3 +36,11 @@
 //   payment = polymorphism.PayWithFedNow();
 //   print('Pagamento realizado na modalidade ${payment.pay()}');
 // }
+
+// void main() {
+//   return justFuture.prints();
+// }
+
+void main() {
+  return future.prints();
+}
