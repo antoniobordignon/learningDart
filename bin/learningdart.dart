@@ -4,7 +4,8 @@
 // import 'package:learningdart/heritage.dart' as heritage;
 // import 'package:learningdart/polymorphism.dart' as polymorphism;
 // import 'package:learningdart/justFuture.dart' as justFuture;
-import 'package:learningdart/futureWithAsyncAndAwait.dart' as future;
+// import 'package:learningdart/futureWithAsyncAndAwait.dart' as future;
+import 'package:learningdart/stream.dart' as stream;
 
 // void main(List<String> arguments) {
 //   print('${variables.type(variables.type('number'))}');
@@ -41,6 +42,10 @@ import 'package:learningdart/futureWithAsyncAndAwait.dart' as future;
 //   return justFuture.prints();
 // }
 
+// void main() {
+//   return future.prints();
+// }
+
 void main() {
-  return future.prints();
+  return stream.prints();
 }
